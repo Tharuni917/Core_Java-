@@ -9,3 +9,19 @@ A handheld prototype(*7) shows Oak code running on custom hardware
 "Oak" is already trademarked; Java is publicly announced in May 1995
 1996 - JDK 1.0
 First official release (January 1996)-Java goes mainstream 
+
+How Java evolved: 30 Year's of steady upgrades
+Java 1.0 - Jan 1996
+JVM,core libraries,applets - Write once,Run anywhere 
+Java 5 - Sep 2004
+Generics, annotations,enums,enhance for-loops 
+Java 8 - Mar 2014
+Lambdas,StreamAPI,new date/time API
+Java 11 - Sep 2018
+First LTS of the 6-month era ; standard HTTP Client 
+Java 17 - Sep 2021
+Records,sealed classes,text blocks; Spring Boot 3/4 baseline 
+Java 21 - Sep 2024
+Virtual threads, Pattern matching for switch, record patterns 
+Java 25 - Sep 2025
+Compact source files,scoped values, compact object headers 
