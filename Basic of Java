@@ -25,3 +25,18 @@ Java 21 - Sep 2024
 Virtual threads, Pattern matching for switch, record patterns 
 Java 25 - Sep 2025
 Compact source files,scoped values, compact object headers 
+
+Data Types 
+Numeric - 
+Int,Byte,Float,Long,Double,Short 
+String - 
+String,Char
+Boolean - 
+True or False 
+
+Variables Rules: 
+1. Variable name must start with a letter, underscore
+2. Name cannot start with a number 
+3. Spaces are not allowed in variable names
+4. Special characters are not allowed 
+5. Case-Sensitive Language 
