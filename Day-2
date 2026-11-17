@@ -7,3 +7,91 @@ Control Statements are divided into 3;They are
 3.Jumping
 .continue .break .return
 
+Syntax:
+if condition{
+    //block of code
+}
+else{
+    //block of code
+}
+
+Program1:
+import java.util.*;
+public class datatypes {
+    public static void main(String[] args) {
+        Scanner obj = new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        int num = obj.nextInt();
+        String result = (num % 2 == 0) ? "Even" : "Odd";
+        System.out.println(result);
+        obj.close();
+    }
+}
+
+Program2:
+import java.util.*;
+public class datatypes{
+  public static void main(String[] args){
+    Scanner obj = new Scanner(System.in);
+    System.out.println("Enter a number: ");
+    int a=obj.nextInt();
+    if (a <= 10) {
+      System.out.println("Condition is true");
+    }
+    obj.close();
+  }
+}
+
+Syntax:
+if condition1{
+    //block of code
+}
+else if conditon2{
+    //block of code
+}
+else if condition3{
+    //block of code
+}
+else if condition4{
+    //block of code
+}
+else{
+    //block of code
+}
+
+Program3:
+import java.util.*;
+public class StudentGrade {
+    public static void main(String[] args) {
+        Scanner obj = new Scanner(System.in);
+        System.out.println("Enter student marks: ");
+        int marks = obj.nextInt();
+        if (marks >= 80 && marks <= 100) {
+            System.out.println("Distinct");
+        }
+        else if (marks >= 60 && marks <=80) {
+            System.out.println("Grade B");
+        }
+        else if (marks >= 50 && marks <=60) {
+            System.out.println("Grade C");
+        }
+        else if (marks >= 35 && marks <=50) {
+            System.out.println("Grade D");
+        }
+        else if (marks <= 35 && marks >= 0) {
+            System.out.println("Fail");
+        }
+        else {
+            System.out.println("Invalid Marks");
+        }
+        obj.close();
+    }
+}
+
+Syntax:
+nested if
+if condition1{
+    if condition2{
+        \\block of code statement2
+        }
+  \\block of code statement1
