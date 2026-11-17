@@ -1,0 +1,8 @@
+Control Statements - 
+Control Statements are divided into 3;They are
+1.Conditional
+.if .ifelse .elseif ladder .nested if .switch
+2.Looping
+.for .while .dowhile
+3.Jumping
+.continue .break .return
